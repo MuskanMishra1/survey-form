@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Survey_form</title>
+        <link rel="stylesheet" type="text/css" href="survey.css">
+    </head>
+<body>
+    <div class="heading">
+        <h1 id="head">free codecamp survey Form</h1>
+        <h2 id="subheading"> thank you for taking the time to help us improve the platform</h2>
+
+    </div> 
+    <form>
+        <div id="content1">
+            <lable >Name</lable> <br></br>
+            <input type="name" name="name" placeholder="Enter your name here " class="box"><br></br>
+            <lable >Email</lable> <br></br>
+            <input type="email" name="email" placeholder="Enter your Email here " class="box"><br></br>
+            <lable >contack</lable> <br></br>
+            <input type="contact" name="contact" placeholder="Enter your contact here " class="box"><br></br>
+           <lable> Which option best describes your current role</lable> <br></br>
+        </div>
+        <div id="optional">
+            <select>
+                <option name="select your domain ">select your domain</option>
+                <option value="Artificial intelligence">artificial intelligence</option>
+                <option value="Cloud Computing">Cloud Computing</option>
+                <option value="Data Science">Data science</option>
+                <option value="other">other</option>
+
+            </select>
+        </div>
+    </form>
+</body>
+</html>
